@@ -1,0 +1,18 @@
+p2{
+    text-align: center;
+    font-weight: bolder;
+    color: darkblue;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+p{
+    text-indent: 40px;
+}
+#footer{
+    padding:5px;
+    font-size: 15px;
+}
+h3{
+    font-weight: 900;
+    color: royalblue;
+}

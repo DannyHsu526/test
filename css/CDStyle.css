@@ -1,0 +1,78 @@
+#footer{
+    text-align: left;
+    padding:5px;
+    font-size: 15px;
+    
+}
+
+#bgSelect{
+    width: 465px;
+    margin: auto;
+    background-color: rgba(215, 215, 234, 0.5);
+    font-weight: 900;
+}
+#newTopic{
+    width:500px;
+    margin: auto;
+    font-weight: 900;
+    background-color: rgba(215, 215, 234, 0.5);
+    color: darkblue;
+}
+
+#mainbody{
+    text-align: center;
+    background-size: 78em 58.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 900;
+    color: darkred;
+}
+#topicDate{
+    font-size:45px;
+    border: outset silver;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 215, 234, 0.3);
+    margin:auto;
+    font-weight: 900;
+    color: darkred;
+}
+#topicH1{
+    font-size:45px;
+    border: outset silver;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 215, 234, 0.3);
+    margin: auto;
+    font-weight: 900;
+    color: darkred;
+}
+#countDownLabel{
+    font-size: 45px;
+    border: outset silver;
+    width: 450px;
+    border-radius: 50px;
+    background-color: rgba(215, 215, 234, 0.3);
+    margin: auto;
+    font-weight: 900;
+    color: darkred;
+}
+#setting{
+    border: outset silver;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgba(215, 215, 234, 0.3);
+    margin:auto;
+    font-weight: 900;
+    color: darkred;
+}
+#bgSetting{
+    border: outset silver;
+    width: 200px;
+    border-radius: 50px;
+    background-color: rgba(215, 215, 234, 0.3);
+    margin: auto;
+}
+/*input::-webkit-input-placeholder{
+    color: darkslateblue !important;
+}*/

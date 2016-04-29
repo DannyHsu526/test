@@ -1,0 +1,16 @@
+#main{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#timeLabel{
+    position: absolute;
+    visibility: hidden;
+    font-weight: bolder;
+}
+#footer{
+    padding:5px;
+    font-size: 15px;
+    
+}

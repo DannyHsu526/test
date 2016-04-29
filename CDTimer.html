@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CountDownTimer</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <script src="CountDownTimerjs.js"></script>
+		<script src="jquery.min.js"></script>
+		<script src="skel.min.js"></script>
+		<script src="skel-layers.min.js"></script>
+		<script src="init.js"></script>
+        <noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+        <link rel="stylesheet" href="css/CDStyle.css"/>
+	</head>
+	<body id="mainbody">
+        <header id="header">
+            <h1><a href="index.html">Countdown Timer</a></h1>
+            <nav id="nav">
+                <ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="RandomSelector.html">Random Selector</a></li>
+					<li><a href="CDTimer.html">Countdown Timer</a></li>
+                    <li><a href="TimeLabel.html">Time Label</a></li>
+                    <li><a href="LearnMore.html">Learn More</a></li>
+                </ul>
+            </nav>
+        </header>
+			<section id="main" class="wrapper">
+				<div class="container" id = "container">
+					<header class="major">
+                        <h1 id="topicDate">Date</h1><br>
+						<h1 id="topicH1">Theme</h1><br>
+                        <h1 id="countDownLabel">Time left</h1>
+					</header>
+				</div>
+                <div id="settingBlock">
+                    <hr>
+                    <h1 id = "setting">Setting</h1><br>
+                    <input type="text" 
+                           placeholder="Key in the main theme of your activity" 
+                           size="50"
+                           id="newTopic">
+                    <br>
+                    <input type="date"
+                           id="newDate">
+                    <input type="button" 
+                           value="Confirm"
+                           id="confirmButton">
+                    <br><br>
+                    <p id="bgSetting">Background Setting</p><br>
+                    <select id="bgSelect">
+                        <option value="">None</option>
+                        <option value="maintenance">進廠保養</option>
+                        
+                        <option value="working">上班</option>
+                        
+                        <option value="girlfriend">載女朋友</option>
+                        <option value="shopping">買東西</option>
+                    </select>
+                </div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Contact Me</h3>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/profile.php?id=100000513133633" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://plus.google.com/u/0/106201253664375643106/posts" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li id = "lili">
+									<h3>Address</h3>
+									Anping,<br>
+									Tainan, Taiwan
+								</li>
+								<li id = "lili">
+									<h3>EMail</h3>
+									<a href="#">b7539514466@gmail.com</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>

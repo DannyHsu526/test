@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Elements - Interphase by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="jquery.min.js"></script>
+		<script src="skel.min.js"></script>
+		<script src="skel-layers.min.js"></script>
+		<script src="init.js"></script>
+        <link rel="stylesheet" href="css/LearnMorestyle.css" />
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Learn More</a></h1>
+				<nav id="nav">
+					<ul>
+				        <li><a href="index.html">Home</a></li>
+					    <li><a href="RandomSelector.html">Random Selector</a></li>
+                        <li><a href="CDTimer.html">Countdown Timer</a></li>
+                        <li><a href="TimeLabel.html">Time Label</a></li>
+                        <li><a href="LearnMore.html">Learn More</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+                    	<h2>個人簡介&程式說明</h2>
+                        <img src="ME.jpg" height="450px" width="350px"><br>
+						<p2 id="nameAndMajor">徐子軒&nbsp;&nbsp;104403526&nbsp;&nbsp;資訊管理系&nbsp;&nbsp;freshman</p>
+					</header>
+
+					<!-- Text -->
+						<section>
+							<h3>個人簡介</h3>
+							<p><indent></indent>我叫徐子軒，是中央大學資管系大一的學生。從台南一中畢業，台南人。這次的大地震也把我家的牆壁震爆了。在高一時學校有安排了C++的課程。當時完全不知道這東西在搞什麼，學得亂七八糟。當時也對程式沒有任何感覺。直到上了大學資管系接觸了經典程式語言C後就喜歡上了寫程式。也突然覺得高中教我們C++實在是有點太難了。現在也在進行著Java的課程。為了挑戰自己所以來選了HTML，感覺還不錯玩。在此之前也沒有任何網頁設計的經驗。希望不會吃不消。<br>學到現在也半個多學期，學到了很多東西。而且HTML又會與CSS、Javascript整合，一次就像在學三種語言，每一次的專案都很有挑戰，會學到非常多新的東西。但相對的也會花非常多但相對的也會花非常多時間，不過我覺得很好玩，所以沒關係。</p>
+
+							<hr />
+							<h2>A. Random Selector</h2>
+							<h3>1.主題說明</h3>
+                            <p>因為平常喜歡騎騎車、兜兜風。所以第一個主題就想到了要買哪台機車。</p>
+                            <h3>2.程式說明</h3>
+                            <p>程式一開始先由HtmlTemplate幫我寫了一段head，裡面幫我定義了UTF-8的字元編碼，以及title還有之後的body。在head裡用了link標籤  連結CSS，為我設定字型顏色、大小、粗細。也用了script標籤連結main.js，在main.js中我只寫了剛進入頁面會跳出的視窗，接下來有關邏輯的javascript部分都直接寫在HTML的head中。在其中定義了一個function，可用javascript寫好的數學方法取得亂數0~1。乘以5後變成0~5，在以Math.floor向下取整便可得出0、1、2，3，4中的任意數。在body中放置了背景圖片、標題、按鈕以及unorder list。在CSS中讓整個body置中，在讓ul往左移，以及定義了字型的色彩、大小、粗細。
+                            </p>
+                            <h3>3.學習心得</h3>
+                            <p>遇到什麼去找什麼的學習方式是第一次遇到，所以有些不太習慣。不過或許是一個值得一試的學習方式，目前為止都還吃的消。不過讓人有點沮喪的是我想在這份作業上加入一個功能是選到某個選項背景即變成那台車的圖片，只是自己研究了3~4個小時都做不太出來，初步想法是用一個變數儲存亂數值，再用if(變數==X)的方式讓javascript顯示出圖片，試了好幾種語法都做不出來，不禁讓我懷疑是否自己腦袋有問題。</p>
+                            
+                            
+							<h2>B. Countdown Timer</h2>
+                            <h3>1.主題說明</h3>
+                            <p>為了配貫穿主題，所以改了原來的主題。改為用機車去做某事的倒數</p>
+                            <h3>2.程式說明</h3>
+                            <p>一開始一樣由HTML Template幫我先寫好一些程式碼，接下來建立倒數計時器所需要的物品：標題、主題、時間顯示區，在給使用者輸入的地方，用到了input指令，並讓type=text, date, button，讓使用者可以輸入文字、日期以及按按鈕確認。在文字方塊裡也用了placeholder，可以先預設一行文字提醒使用者該輸入什麼。在邏輯方面，這隻程式的三大主軸是時間相減、按按鈕後顯示文字以及變換背景圖片等。我在main.js中宣告了一堆變數，並讓他分別拿到在index.html設好id的值。這次運用了addEventListener來監視使用者是否做了某些事情，例如：按確認按鈕、變換清單中的選項等等。時間運算部分只要將設定時間和現在時間相減便能得出以千分之一秒為單位的值。並運用數學運算將天時分秒算出來。最後變換背景部分讓javascript可以去控制css，透過document.body.style.backgroundImage = url('xxx.jpg');來變換背景。
+                            </p>
+                            <h3>3.學習心得</h3>
+                            <p>在每一次(其實目前也才兩次)都可以學到滿多東西的。雖然在課堂上會覺得有點跳躍的感覺，但回來看程式碼後會覺得滿ok的。幾乎都看得懂。在上次作業想要變換圖片都變不出來，這次終於學到了，非常開心。沒想到只需要短短的幾行程式碼。但是語法方面有些還是不太熟悉，不過那是我的問題，因為我花不夠多時間在此，或許是大一學分數太多，我覺得時間有點不夠用。又或是我自己時間控管不好。總之我應該要多加油了。</p>
+                            
+                            <h2>C. Time Label</h2>
+                            <h3>1.主題說明</h3>
+                            <p>這個比較不好配合主題，所以只是找機車的照片加上框框放時間而已。</p>
+                            <h3>2.程式說明</h3>
+                            <p>一開始在body裡創一個div，接著在javascript裡建立一個物件類別，並傳入四個屬性值給他。這有點像java的建構式(constructor),讓我們以後創立物件時不必寫很多東西。但相對java較不嚴謹，當初看到時腦筋有點轉不過來，怎麼看怎麼怪。接著就是創立五個物件(有五張圖片，時間分別放在不同位置，也有不同樣式、角度)。接著利用setInterval()讓換圖片的function每五秒跑一次，以及時間每一秒調一次。這時會發現時間怪怪的，如果只有個位數就只會顯示一個數字。所以將他傳入一個function內，在函式裡會先將所有數字字串前加一個零，再用String.slice(-2)方法拿取後兩個數字，如此一來個位數就會變成0X。在換圖片的函式中用變數%5/變數++，便可在每次call這函數時使變數從0到4輪迴。如此一來也能利用字串連結的方式改圖片。
+                            </p>
+                            <h3>3.學習心得</h3>
+                            <p>這次加上了用別人做好的模板整合前幾次作業。花了非常久的時間，但也學到不少東西。也藉機複習了前幾次的專案。其實也不知道時間花去哪裡了，東調調西調調就好幾個小時過去了。有時會遇到很frustrating的問題，例如倒數計時器的圖片實在是沒辦法找到最好的方式擺放，最後只好慢慢測比例，但我相信放到不同電腦上看又會發生問題。以及在Time Label裡有時改位置參數但他位置卻沒變。可能是還有點細節不太清楚所造成的原因。加上上傳到網頁上看時又發生一連串的問題，調了好幾個小時也調不好，不太清楚為何countdown timer的html不知去哪接了一個我沒寫過的CSS，把我一些字變得很粗體，還有一些圖片跑不出來。嘗試Debug後也沒成功，或許是LMS的問題吧，所有檔案重傳後還是一樣，而且有問題的永遠是countdown timer，借了同學的電腦看了我的網頁，的確有很多圖片位置跑掉，尤其是Time Board時間位置跟方塊幾乎對不起來。不知是否有方法能讓不同解析度的電腦都看到一樣的畫面。</p>
+							<hr />
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Contact Me</h3>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/profile.php?id=100000513133633" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://plus.google.com/u/0/106201253664375643106/posts" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li id = "lili">
+									<h3>Address</h3>
+									Anping,<br>
+									Tainan, Taiwan
+								</li>
+								<li id = "lili">
+									<h3>EMail</h3>
+									<a href="#">b7539514466@gmail.com</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
